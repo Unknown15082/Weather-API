@@ -17,7 +17,7 @@ with `<your-api-key>` being your own API key on OpenWeather API
 
 In your command prompts (on Windows) or terminal (on iOS/Linux), run the following code:
 
-    pip install -r requirements.txt
+    pip install -r requirements.txt -q
 
 # Last updated in:
 

@@ -17,7 +17,7 @@ def getcurrent(location, lang = "en"):
     lat, lon = location
     parameters["lat"] = str(lat)
     parameters["lon"] = str(lon)
-    parameters["units"] = "metric"
+    parameters["units"] = "metrics"
     parameters["appid"] = KEY
 
     url = f"https://api.openweathermap.org/data/2.5/weather"

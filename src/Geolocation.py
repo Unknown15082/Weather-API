@@ -11,7 +11,7 @@ def geo(name):
     client = Nominatim(user_agent = "geolocation")
     location = client.geocode(name).raw
 
-    return int(location["lat"]), int(location["lon"])
+    return float(location["lat"]), float(location["lon"])
 
 def revgeo(lat, lon, lang = "en"):
 
